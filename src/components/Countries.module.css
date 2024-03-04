@@ -1,0 +1,15 @@
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+@media screen and (min-width: 768) {
+  .countries {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 992) {
+  .countries {
+    grid-template-columns: auto auto auto;
+  }
+}
